@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_namaBarangFirebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_kodeBarangFirebase"
+            android:layout_below="@+id/tv_namaBarangFirebase"
+            android:text="Kode Barang"
+            android:textSize="12dp"
+            android:textColor="@color/purple_200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_jumlahBarangFirebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="0 "
+            android:textColor="@color/purple_200" />
+
+        <TextView
+            android:id="@+id/tv_idBarangFirebase"
+            android:visibility="gone"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/tv_jumlahBarangFirebase"
+            android:text="Id"
+            android:textSize="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

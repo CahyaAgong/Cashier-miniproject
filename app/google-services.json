@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "225806171123",
+    "firebase_url": "https://fir-4422f.firebaseio.com",
+    "project_id": "fir-4422f",
+    "storage_bucket": "fir-4422f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225806171123:android:7174cb85fca51f0e2eb086",
+        "android_client_info": {
+          "package_name": "com.jeje.cashier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225806171123-8ml2mscnb3qu4a299gml5ccmadhhfadn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB--dmxUcZVYu196uM_gmBJ2oMkbZErQpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225806171123-8ml2mscnb3qu4a299gml5ccmadhhfadn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225806171123:android:45183166a2b0fd1c2eb086",
+        "android_client_info": {
+          "package_name": "id.co.blogspot.wimsonevel.android_pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225806171123-8ml2mscnb3qu4a299gml5ccmadhhfadn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB--dmxUcZVYu196uM_gmBJ2oMkbZErQpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225806171123-8ml2mscnb3qu4a299gml5ccmadhhfadn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

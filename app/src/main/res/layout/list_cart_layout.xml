@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_namaBarangCart"
+        android:text="Nama Barang"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_kodeBarangCart"
+        android:layout_below="@+id/tv_namaBarangCart"
+        android:text="Kode Barang"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/cart_food_delete"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="25dp"
+        android:clickable="true"
+        android:layout_gravity="center" />
+</RelativeLayout>
